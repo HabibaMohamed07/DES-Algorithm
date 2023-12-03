@@ -107,7 +107,7 @@ def encrypt(pt, rkb, rk):
 			val = sbox[j][row][col]
 			sbox_str = sbox_str + dec2bin(val)
 
-		# Straight D-box: After substituting rearranging the bits
+		
 		sbox_str = permute(sbox_str, per, 32)
 
 		# XOR left and sbox_str
