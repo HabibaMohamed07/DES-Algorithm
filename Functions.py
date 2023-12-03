@@ -67,7 +67,7 @@ def shift_left(k, nth_shifts):
 		s = ""
 	return k
 
-# calculating xow of two strings of binary number a and b
+# calculating xor of two strings of binary number a and b
 
 
 def xor(a, b):
